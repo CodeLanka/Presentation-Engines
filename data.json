@@ -18,6 +18,7 @@
 			"content_url":"content/revealjs.md",
 			"github":"hakimel/reveal.js"
 		},
+
 		{
 			"name":"Slides",
 			"Author":[
@@ -33,6 +34,42 @@
 			"language":"JavaScript",
 			"content_url":"content/slides.md",
 			"github":"briancavalier/slides"
+		},
+
+		{
+			"name":"Shower",
+			"Author":[],
+			"description":"Shower HTML presentation engine",
+			"license":"MIT",
+			"demo":"http://shwr.me/?full#Cover",
+			"website":"http://shwr.me/",
+			"language":"JavaScript",
+			"content_url":"content/slides.md",
+			"github":"shower/shower"
+		},
+
+		{
+			"name":"Flowtime.js",
+			"Author":[],
+			"description":"Flowtime.js is a framework for easily build HTML presentations or websites.",
+			"license":"",
+			"demo":"http://flowtime-js.marcolago.com/",
+			"website":"http://flowtime-js.marcolago.com/",
+			"language":"JavaScript",
+			"content_url":"content/slides.md",
+			"github":"marcolago/flowtime.js"
+		},
+
+		{
+			"name":"Slight",
+			"Author":[],
+			"description":"Javascript presentation engine",
+			"license":"MIT",
+			"demo":"http://sabov.github.io/slight",
+			"website":"http://sabov.github.io/slight",
+			"language":"JavaScript",
+			"content_url":"content/slight.md",
+			"github":"sabov/slight"
 		}
 	
 	]
