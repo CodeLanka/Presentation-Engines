@@ -180,25 +180,12 @@
         var phonecatApp = angular.module('presen', []);
 
         phonecatApp.controller('personController', function ($scope,$http) {
-          // $scope.phones = [
-          //   {'name': 'Nexus S',
-          //    'snippet': 'Fast just got faster with Nexus S.'},
-          //   {'name': 'Motorola XOOM™ with Wi-Fi',
-          //    'snippet': 'The Next, Next Generation tablet.'},
-          //   {'name': 'MOTOROLA XOOM™',
-          //    'snippet': 'The Next, Next Generation tablet.'}
-          // ];
           $http.get('/data.json').
           success(function(data, status, headers, config) {
                 $scope.presentations=data.engines;
                 console.log(data.engines);
           }).
           error(function(data, status, headers, config) {});
-
-           // $.get("/data.json",function(data){
-           //      $scope.presentations=data.engines;
-           //      console.log(data.engines);
-           //  })
         });
 
      
