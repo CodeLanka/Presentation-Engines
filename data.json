@@ -3,7 +3,6 @@
 	"engines":[
 
 		{
-			
 			"name":"Reveal.js",
 			"Author":[
 				{
@@ -11,13 +10,13 @@
 					"github":"http://github.com/hakimel"
 				}
 			],
-			"description":"This si a revela description",
+			"description":"A framework for easily creating beautiful presentations using HTML",
 			"license":"MIT",
+			"demo":"http://lab.hakim.se/reveal-js",
 			"website":"http://lab.hakim.se/reveal-js",
 			"language":"JavaScript",
 			"content_url":"content/revealjs.md",
-			"github":"https://github.com/hakimel/reveal.js"
-
+			"github":"hakimel/reveal.js"
 		}
 	
 	]
