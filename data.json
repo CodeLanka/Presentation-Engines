@@ -1,0 +1,26 @@
+{
+	
+	"engines":[
+
+		{
+			
+			"name":"Reveal.js",
+			"Author":[
+				{
+					"name":"Hakim",
+					"github":"http://github.com/hakimel"
+				}
+			],
+			"description":"This si a revela description",
+			"license":"MIT",
+			"website":"http://lab.hakim.se/reveal-js",
+			"language":"JavaScript",
+			"content_url":"content/revealjs.md",
+			"github":"https://github.com/hakimel/reveal.js"
+
+		}
+	
+	]
+
+
+}
