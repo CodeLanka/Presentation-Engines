@@ -180,7 +180,7 @@
         var phonecatApp = angular.module('presen', []);
 
         phonecatApp.controller('personController', function ($scope,$http) {
-          $http.get('/data.json').
+          $http.get('data.json').
           success(function(data, status, headers, config) {
                 $scope.presentations=data.engines;
                 console.log(data.engines);
