@@ -17,6 +17,22 @@
 			"language":"JavaScript",
 			"content_url":"content/revealjs.md",
 			"github":"hakimel/reveal.js"
+		},
+		{
+			"name":"Slides",
+			"Author":[
+				{
+					"name":"Brian Cavalier",
+					"github":"https://github.com/briancavalier"
+				}
+			],
+			"description":"A slide presentation framework in HTML, JS, and OOCSS",
+			"license":"MIT",
+			"demo":"http://briancavalier.com/code/slides",
+			"website":"http://briancavalier.com/code/slides",
+			"language":"JavaScript",
+			"content_url":"content/slides.md",
+			"github":"briancavalier/slides"
 		}
 	
 	]
